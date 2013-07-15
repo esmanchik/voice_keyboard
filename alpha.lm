@@ -1,0 +1,153 @@
+Language model created by QuickLM on Sat Jul 13 15:41:56 EDT 2013
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 32 sentences and 34 words
+
+\data\
+ngram 1=34
+ngram 2=64
+ngram 3=32
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-2.2833 ALPHA -0.2218
+-2.2833 BACKSPACE -0.2218
+-2.2833 BRAVO -0.2218
+-2.2833 CHARLIE -0.2218
+-2.2833 DASH -0.2218
+-2.2833 DELTA -0.2218
+-2.2833 DOT -0.2218
+-2.2833 ECHO -0.2218
+-2.2833 ENTER -0.2218
+-2.2833 FOXTROT -0.2218
+-2.2833 GOLF -0.2218
+-2.2833 HOTEL -0.2218
+-2.2833 INDIA -0.2218
+-2.2833 JULIET -0.2218
+-2.2833 KILO -0.2218
+-2.2833 LIMA -0.2218
+-2.2833 MIKE -0.2218
+-2.2833 NOVEMBER -0.2218
+-2.2833 OSCAR -0.2218
+-2.2833 PAPA -0.2218
+-2.2833 QUEBEC -0.2218
+-2.2833 ROMEO -0.2218
+-2.2833 SIERRA -0.2218
+-2.2833 SLASH -0.2218
+-2.2833 SPACE -0.2218
+-2.2833 TANGO -0.2218
+-2.2833 UNIFORM -0.2218
+-2.2833 VICTOR -0.2218
+-2.2833 WHISKEY -0.2218
+-2.2833 X-RAY -0.2218
+-2.2833 YANKEE -0.2218
+-2.2833 ZULU -0.2218
+
+\2-grams:
+-1.8062 <s> ALPHA 0.0000
+-1.8062 <s> BACKSPACE 0.0000
+-1.8062 <s> BRAVO 0.0000
+-1.8062 <s> CHARLIE 0.0000
+-1.8062 <s> DASH 0.0000
+-1.8062 <s> DELTA 0.0000
+-1.8062 <s> DOT 0.0000
+-1.8062 <s> ECHO 0.0000
+-1.8062 <s> ENTER 0.0000
+-1.8062 <s> FOXTROT 0.0000
+-1.8062 <s> GOLF 0.0000
+-1.8062 <s> HOTEL 0.0000
+-1.8062 <s> INDIA 0.0000
+-1.8062 <s> JULIET 0.0000
+-1.8062 <s> KILO 0.0000
+-1.8062 <s> LIMA 0.0000
+-1.8062 <s> MIKE 0.0000
+-1.8062 <s> NOVEMBER 0.0000
+-1.8062 <s> OSCAR 0.0000
+-1.8062 <s> PAPA 0.0000
+-1.8062 <s> QUEBEC 0.0000
+-1.8062 <s> ROMEO 0.0000
+-1.8062 <s> SIERRA 0.0000
+-1.8062 <s> SLASH 0.0000
+-1.8062 <s> SPACE 0.0000
+-1.8062 <s> TANGO 0.0000
+-1.8062 <s> UNIFORM 0.0000
+-1.8062 <s> VICTOR 0.0000
+-1.8062 <s> WHISKEY 0.0000
+-1.8062 <s> X-RAY 0.0000
+-1.8062 <s> YANKEE 0.0000
+-1.8062 <s> ZULU 0.0000
+-0.3010 ALPHA </s> -0.3010
+-0.3010 BACKSPACE </s> -0.3010
+-0.3010 BRAVO </s> -0.3010
+-0.3010 CHARLIE </s> -0.3010
+-0.3010 DASH </s> -0.3010
+-0.3010 DELTA </s> -0.3010
+-0.3010 DOT </s> -0.3010
+-0.3010 ECHO </s> -0.3010
+-0.3010 ENTER </s> -0.3010
+-0.3010 FOXTROT </s> -0.3010
+-0.3010 GOLF </s> -0.3010
+-0.3010 HOTEL </s> -0.3010
+-0.3010 INDIA </s> -0.3010
+-0.3010 JULIET </s> -0.3010
+-0.3010 KILO </s> -0.3010
+-0.3010 LIMA </s> -0.3010
+-0.3010 MIKE </s> -0.3010
+-0.3010 NOVEMBER </s> -0.3010
+-0.3010 OSCAR </s> -0.3010
+-0.3010 PAPA </s> -0.3010
+-0.3010 QUEBEC </s> -0.3010
+-0.3010 ROMEO </s> -0.3010
+-0.3010 SIERRA </s> -0.3010
+-0.3010 SLASH </s> -0.3010
+-0.3010 SPACE </s> -0.3010
+-0.3010 TANGO </s> -0.3010
+-0.3010 UNIFORM </s> -0.3010
+-0.3010 VICTOR </s> -0.3010
+-0.3010 WHISKEY </s> -0.3010
+-0.3010 X-RAY </s> -0.3010
+-0.3010 YANKEE </s> -0.3010
+-0.3010 ZULU </s> -0.3010
+
+\3-grams:
+-0.3010 <s> ALPHA </s>
+-0.3010 <s> BACKSPACE </s>
+-0.3010 <s> BRAVO </s>
+-0.3010 <s> CHARLIE </s>
+-0.3010 <s> DASH </s>
+-0.3010 <s> DELTA </s>
+-0.3010 <s> DOT </s>
+-0.3010 <s> ECHO </s>
+-0.3010 <s> ENTER </s>
+-0.3010 <s> FOXTROT </s>
+-0.3010 <s> GOLF </s>
+-0.3010 <s> HOTEL </s>
+-0.3010 <s> INDIA </s>
+-0.3010 <s> JULIET </s>
+-0.3010 <s> KILO </s>
+-0.3010 <s> LIMA </s>
+-0.3010 <s> MIKE </s>
+-0.3010 <s> NOVEMBER </s>
+-0.3010 <s> OSCAR </s>
+-0.3010 <s> PAPA </s>
+-0.3010 <s> QUEBEC </s>
+-0.3010 <s> ROMEO </s>
+-0.3010 <s> SIERRA </s>
+-0.3010 <s> SLASH </s>
+-0.3010 <s> SPACE </s>
+-0.3010 <s> TANGO </s>
+-0.3010 <s> UNIFORM </s>
+-0.3010 <s> VICTOR </s>
+-0.3010 <s> WHISKEY </s>
+-0.3010 <s> X-RAY </s>
+-0.3010 <s> YANKEE </s>
+-0.3010 <s> ZULU </s>
+
+\end\
