@@ -5,11 +5,8 @@ Type saying Alpha, Bravo, Charlie ... Zulu  words.
 
 ## Getting Started
  * Install pocketsphinx as in http://cmusphinx.sourceforge.net/wiki/tutorialpocketsphinx
- * Build
-```
-        cd voice_keyboard
-        ./build.sh
-```
+ * Allow access to uinput device `` chmod 666 /dev/uinput ``
+ * Build `` cd voice_keyboard && ./build.sh ``
  * Run voice_keyboard from the same dir and say words from [NATO phonetic alphabet](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet) to type characters
        
 ## Language Model
