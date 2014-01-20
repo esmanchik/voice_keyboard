@@ -30,3 +30,15 @@ dot
 slash
 enter
 backspace
+tab
+capslock
+zero
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine

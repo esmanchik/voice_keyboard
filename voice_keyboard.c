@@ -43,6 +43,18 @@ int voice_keyboard(void *ctx, char const *hyp) {
         else if (!strcmp(word, "SPACE")) key = KEY_SPACE;
         else if (!strcmp(word, "SLASH")) key = KEY_SLASH;
         else if (!strcmp(word, "DOT")) key = KEY_DOT;
+        else if (!strcmp(word, "TAB")) key = KEY_TAB;
+        else if (!strcmp(word, "CAPSLOCK")) key = KEY_CAPSLOCK;
+        else if (!strcmp(word, "ZERO")) key = KEY_0;
+        else if (!strcmp(word, "ONE")) key = KEY_1;
+        else if (!strcmp(word, "TWO")) key = KEY_2;
+        else if (!strcmp(word, "THREE")) key = KEY_3;
+        else if (!strcmp(word, "FOUR")) key = KEY_4;
+        else if (!strcmp(word, "FIVE")) key = KEY_5;
+        else if (!strcmp(word, "SIX")) key = KEY_6;
+        else if (!strcmp(word, "SEVEN")) key = KEY_7;
+        else if (!strcmp(word, "EIGHT")) key = KEY_8;
+        else if (!strcmp(word, "NINE")) key = KEY_9;
         else key = char2key(word[0]); 
         write_key(fd, key);
     }
